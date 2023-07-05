@@ -106,3 +106,157 @@ header .header-right .hamburger div {
         display: none;
     }
 }
+
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 50px auto;
+  }
+  
+  .icon-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 20px;
+    width: 120px;
+  }
+  
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .icon img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .icon-label {
+    margin-top: 10px;
+    text-align: center;
+    color: #333333;
+  }
+  
+  .icon-link:hover .icon {
+    background-color: #eaeaea;
+    cursor: pointer;
+  }
+  
+  .icon-link:hover .icon-label {
+    color: #555555;
+  }
+
+  /* ... Existing CSS code ... */
+
+.icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 50px auto;
+  }
+  
+  .icon-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 20px;
+    width: 120px;
+  }
+  
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .icon img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .icon-label {
+    margin-top: 10px;
+    text-align: center;
+    color: #333333;
+  }
+  
+  .icon-link:hover .icon {
+    background-color: #eaeaea;
+    cursor: pointer;
+  }
+  
+  .icon-link:hover .icon-label {
+    color: #555555;
+  }
+  body {
+    background-image: url("assets/landing_image.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    transition: background-color 0.5s ease; /* Added transition for background color */
+  }
+  
+  .header {
+    text-align: center;
+    margin-top: 100px;
+    transition: margin-top 0.5s ease; /* Added transition for margin-top */
+  }
+  
+  .mission-vision {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+    transition: margin-top 0.5s ease; /* Added transition for margin-top */
+  }
+  
+  .icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 50px auto;
+    opacity: 1; /* Initial opacity set to 0 */
+    transition: opacity 0.5s ease; /* Added transition for opacity */
+  }
+  
+  /* Add this style to change the background color after scrolling */
+  body.scrolled {
+    background-color: linear-gradient(to bottom, #000080, #008000);
+  }
+  
+  /* Add this style to show the icons after scrolling */
+  body.scrolled .icon-container {
+    opacity: 1;
+  }
+    
